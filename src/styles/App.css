@@ -130,7 +130,7 @@
 }
 
 .user-btn {
-  border: 2px solid #2196F3;
+  border: 2px solid var(--primary-green);
   border-radius: 50%;
   padding: 6px;
 }
@@ -203,7 +203,7 @@
 }
 
 .user-menu-item.logout {
-  color: #E53935;
+  color: var(--notification-red);
 }
 
 /* Sidebar Overlay */
@@ -322,8 +322,8 @@
 }
 
 .nav-item.active {
-  background: #E3F2FD;
-  color: #2196F3;
+  background: var(--primary-green-light);
+  color: var(--primary-green);
 }
 
 .nav-item svg {
@@ -447,18 +447,18 @@
 }
 
 .badge-active {
-  background: #FFF3E0;
-  color: #F57C00;
+  background: var(--event-card-bg);
+  color: var(--golden-orange);
 }
 
 .badge-completed {
-  background: #E8F5E9;
-  color: #43A047;
+  background: var(--primary-green-light);
+  color: var(--primary-green);
 }
 
 .badge-super {
-  background: #E3F2FD;
-  color: #1976D2;
+  background: var(--milk-green);
+  color: var(--dark-gray);
 }
 
 .member-name {
@@ -492,7 +492,7 @@
 }
 
 .detail-link {
-  color: #2196F3;
+  color: var(--primary-green);
   text-decoration: none;
 }
 
@@ -500,11 +500,11 @@
   display: inline-block;
   padding: 6px 12px;
   background: var(--white);
-  border: 1px solid #2196F3;
+  border: 1px solid var(--primary-green);
   border-radius: 16px;
   font-size: 12px;
   font-weight: 500;
-  color: #2196F3;
+  color: var(--primary-green);
 }
 
 /* Stats Section */
@@ -520,7 +520,7 @@
   flex-direction: column;
   align-items: center;
   padding: 16px;
-  background: var(--light-gray);
+  background: var(--primary-green-light);
   border-radius: 12px;
 }
 
@@ -528,7 +528,7 @@
   font-family: var(--font-primary);
   font-size: 28px;
   font-weight: 700;
-  color: #2196F3;
+  color: var(--primary-green);
 }
 
 .stat-label {
@@ -540,7 +540,7 @@
 .browse-all-btn {
   width: 100%;
   padding: 14px;
-  background: #2196F3;
+  background: var(--primary-green);
   color: var(--white);
   border: none;
   border-radius: 10px;
@@ -551,7 +551,7 @@
 }
 
 .browse-all-btn:hover {
-  background: #1976D2;
+  background: #567339;
 }
 
 /* ==================== */
@@ -617,9 +617,9 @@
 }
 
 .filter-btn.active {
-  background: #E3F2FD;
-  border-color: #2196F3;
-  color: #2196F3;
+  background: var(--primary-green-light);
+  border-color: var(--primary-green);
+  color: var(--primary-green);
 }
 
 /* Sort Menu */
@@ -661,7 +661,7 @@
 }
 
 .sort-option.active {
-  background: #FFF9C4;
+  background: var(--event-card-bg);
   color: var(--dark-gray);
 }
 
@@ -702,7 +702,7 @@
   border: none;
   cursor: pointer;
   font-size: 14px;
-  color: #2196F3;
+  color: var(--primary-green);
 }
 
 .profile-header {
@@ -740,7 +740,7 @@
 
 .location-link {
   font-size: 14px;
-  color: #2196F3;
+  color: var(--primary-green);
   text-decoration: none;
 }
 
@@ -832,10 +832,10 @@
 .profile-page .tag {
   padding: 6px 14px;
   background: var(--white);
-  border: 1px solid #2196F3;
+  border: 1px solid var(--primary-green);
   border-radius: 16px;
   font-size: 13px;
-  color: #2196F3;
+  color: var(--primary-green);
 }
 
 /* Info Groups */
@@ -852,19 +852,19 @@
 
 .info-value-link {
   font-size: 14px;
-  color: #2196F3;
+  color: var(--primary-green);
 }
 
 .info-box {
   padding: 12px 16px;
-  background: #E3F2FD;
+  background: var(--primary-green-light);
   border-radius: 8px;
   margin-bottom: 8px;
 }
 
 .info-text {
   font-size: 14px;
-  color: #2196F3;
+  color: var(--primary-green);
   line-height: 1.5;
 }
 
@@ -879,7 +879,7 @@
   border: none;
   cursor: pointer;
   font-size: 14px;
-  color: #2196F3;
+  color: var(--primary-green);
   padding: 0;
   margin-top: 4px;
 }
@@ -888,7 +888,7 @@
 .quote-card {
   position: relative;
   padding: 24px;
-  background: #AB97C6;
+  background: var(--milk-green);
   border-radius: 16px;
   margin: 24px 0;
 }
@@ -896,14 +896,14 @@
 .quote-label {
   display: block;
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(60, 60, 67, 0.8);
   margin-bottom: 8px;
 }
 
 .quote-text {
   font-size: 18px;
   font-weight: 500;
-  color: var(--white);
+  color: var(--dark-gray);
   line-height: 1.5;
   padding-right: 50px;
 }
@@ -922,7 +922,7 @@
 .joy-card {
   position: relative;
   padding: 24px;
-  background: #C4965F;
+  background: var(--truth-orange);
   border-radius: 16px;
   margin: 24px 0;
 }
@@ -930,14 +930,14 @@
 .joy-label {
   display: block;
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(60, 60, 67, 0.8);
   margin-bottom: 8px;
 }
 
 .joy-text {
   font-size: 18px;
   font-weight: 500;
-  color: var(--white);
+  color: var(--dark-gray);
   line-height: 1.5;
   padding-right: 50px;
 }
@@ -971,7 +971,7 @@
   align-items: center;
   gap: 8px;
   font-size: 14px;
-  color: #2196F3;
+  color: var(--primary-green);
   text-decoration: none;
 }
 
@@ -982,19 +982,19 @@
   right: 30px;
   width: 56px;
   height: 56px;
-  background: #2196F3;
+  background: var(--primary-green);
   border: none;
   border-radius: 50%;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 12px rgba(33, 150, 243, 0.4);
+  box-shadow: 0 4px 12px rgba(100, 131, 73, 0.4);
   z-index: 100;
 }
 
 .fab-btn.active {
-  background: #2196F3;
+  background: var(--primary-green);
 }
 
 /* Jump To Modal */
@@ -1036,5 +1036,5 @@
 }
 
 .jump-to-option.active {
-  background: #FFF9C4;
+  background: var(--event-card-bg);
 }

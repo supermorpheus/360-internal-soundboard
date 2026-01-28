@@ -90,6 +90,7 @@
   max-height: 844px;
   background-color: var(--white);
   overflow: hidden;
+  position: relative;
 }
 
 @media (max-width: 430px) {
@@ -209,7 +210,7 @@
 /* Sidebar Overlay */
 .sidebar-overlay,
 .menu-overlay {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
@@ -220,9 +221,9 @@
 
 /* Sidebar */
 .sidebar {
-  position: fixed;
+  position: absolute;
   top: 0;
-  left: -300px;
+  left: -280px;
   width: 280px;
   height: 100%;
   background: var(--white);
@@ -977,9 +978,9 @@
 
 /* FAB Button */
 .fab-btn {
-  position: fixed;
-  bottom: 80px;
-  right: 30px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
   width: 56px;
   height: 56px;
   background: var(--primary-green);
@@ -999,9 +1000,9 @@
 
 /* Jump To Modal */
 .jump-to-modal {
-  position: fixed;
-  bottom: 150px;
-  right: 30px;
+  position: absolute;
+  bottom: 90px;
+  right: 20px;
   background: var(--white);
   border-radius: 16px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);

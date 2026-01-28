@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useNavigate, useLocation } from 'react-router-dom'
 import { currentUser } from '../../data/mockData'
-import '../../styles/app.css'
+import '../../styles/App.css'
 
 function AppLayout({ children }) {
   const [sidebarOpen, setSidebarOpen] = useState(false)

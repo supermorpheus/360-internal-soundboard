@@ -156,5 +156,23 @@ export const newMembers = members.filter(m => m.status === 'active')
 export const stats = {
   totalMembers: 797,
   newMembersThisMonth: 23,
+  newMembersThisWeek: 5,
   upcomingEvents: 1
 }
+
+export const events = [
+  {
+    id: 'event-001',
+    title: 'Gurukul 2025',
+    date: 'Mar 15-20',
+    location: 'Pondicherry',
+    attendees: 45
+  },
+  {
+    id: 'event-002',
+    title: 'Delhi Meetup',
+    date: 'Feb 8',
+    location: 'Delhi',
+    attendees: 12
+  }
+]

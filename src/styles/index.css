@@ -3,35 +3,35 @@
 /* Font Definitions */
 @font-face {
   font-family: 'DIN Condensed';
-  src: url('/360-github/fonts/DIN Condensed Bold.ttf') format('truetype');
+  src: url('/360-internal-soundboard/fonts/DIN Condensed Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'DIN Alternate';
-  src: url('/360-github/fonts/DIN Alternate Bold.ttf') format('truetype');
+  src: url('/360-internal-soundboard/fonts/DIN Alternate Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Eina';
-  src: url('/360-github/fonts/Eina01-Regular.ttf') format('truetype');
+  src: url('/360-internal-soundboard/fonts/Eina01-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Eina';
-  src: url('/360-github/fonts/Eina01-SemiBold.ttf') format('truetype');
+  src: url('/360-internal-soundboard/fonts/Eina01-SemiBold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Eina';
-  src: url('/360-github/fonts/Eina01-Bold.ttf') format('truetype');
+  src: url('/360-internal-soundboard/fonts/Eina01-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
 }

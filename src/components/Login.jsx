@@ -18,14 +18,15 @@ function Login() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    // Mock login - just log the data
+    // Mock login - navigate to home
     console.log('Login attempt:', formData)
-    alert('Login successful! (Mock)')
+    navigate('/')
   }
 
   const handleGoogleLogin = () => {
     console.log('Google login clicked')
-    alert('Google login clicked (Mock)')
+    // Mock Google login - navigate to home
+    navigate('/')
   }
 
   return (

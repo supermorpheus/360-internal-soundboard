@@ -130,6 +130,9 @@ function BrowseMembers() {
                   {getStatusBadge(member.status).label}
                 </span>
                 <h3 className="member-name">{member.firstName} {member.lastName}</h3>
+                {member.introduction && (
+                  <p className="member-intro">{member.introduction.slice(0, 80)}...</p>
+                )}
                 <div className="member-details">
                   <div className="detail-item">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#898989" strokeWidth="2">
